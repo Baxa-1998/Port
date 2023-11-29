@@ -40,6 +40,9 @@ document.addEventListener('DOMContentLoaded', function () {
   // ticker  text
   const marq = document.querySelectorAll('.header__marq-txt');
 
+
+  
+
   // benefits num 
   function benefits() {
     gsap.from('.benefits__num', {
@@ -89,8 +92,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: gsTitle,
-        start: 'top 80%',
-        end: '70% 80%',
+        start: 'top 100%',
+        end: '40% 50%',
         toggleActions: 'play none none none',
 
         markers: true,
@@ -101,3 +104,9 @@ document.addEventListener('DOMContentLoaded', function () {
     tl.from(textChar, 1, { opacity: 0, yPercent: 130, stagger: 0.02, ease: 'back.out' });
   });
 });
+
+
+
+
+
+

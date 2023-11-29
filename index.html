@@ -23,8 +23,38 @@
         <a class="open_popup" href="#">
           <span class="popup__open-sp">close</span>
           <span class="popup__open-spb"></span>
+
         </a>
+
       </div>
+      <div class="menu__wrap">
+            <ul class="menu">
+        <li class="menu__item">
+          <a href="#about" class="menu__link">About</a>
+          <img src="img/menu1.jpg" alt="menu1" class="menu__img">
+        </li>
+        
+        <li class="menu__item">
+          <a href="#technologies" class="menu__link">Technologies</a>
+          <img src="img/menu3.jpg" alt="menu3" class="menu__img">
+        </li>
+        <li class="menu__item">
+          <a href="#portfolio" class="menu__link">Portfolio</a>
+          <img src="img/menu4.jpg" alt="menu4" class="menu__img">
+        </li>
+        <li class="menu__item">
+          <a href="#contacts" class="menu__link">Contacts</a>
+          <img src="img/menu5.jpg" alt="menu5" class="menu__img">
+        </li>
+        <li class="menu__item">
+          <a href="#socials" class="menu__link">Socials</a>
+          <img src="img/menu6.jpg" alt="menu6" class="menu__img">
+        </li>
+     
+      </ul>
+      </div>
+
+  
     </div>
 
 
@@ -77,14 +107,17 @@
 					<span class="stroke">o</span> 					
 					<span class="stroke">d</span> 	
 					<span class="stroke">e</span> 	
-					<span class="stroke">r</span> 	
+					<span class="stroke">r</span> 	<br>
+          <a href="#"> <button class="header__btn">RESUME</button> </a>
 						
 					
         </h1>
+   
 
 				<div class="header__img">
 					<img src="img/react2.jpg" alt="">
 				</div>
+     
 
         <div class="header__marq">
           <div class="header__marq-wrapp">
@@ -175,9 +208,14 @@
 
       <main class="main">
         <!-- div .about -->
+        <div class="arrow__wrap">
+          <a href="#luxy">           <img class="arrow-up" src="img/arrow-up.png" alt=""></a>
+       
+        </div>
+
 
 				
-        <section class="about">
+        <section id="about" class="about">
 					<div class="animated_block">   
              <div class="about__wrapp">
             
@@ -195,10 +233,7 @@
                 <span class="section-title__square"></span>
               </h2>
               <p class="about__p">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque esse aspernatur
-                fugit debitis quisquam. Quia exercitationem ipsum voluptas voluptatum hic enim quo
-                provident culpa possimus cupiditate! Dolorum quae doloremque cum rerum ipsam
-                inventore beatae, at odit, velit, aspernatur minima! Corporis.
+                I am Baxtiyor from Uzbekistan frontend developer with 2 years of experience. I am able to create a variety of websites, web applications, admin dashboards, and e-commerce stores from scratch. I have experience working with HTML, CSS, JavaScript, React, Redux, TypeScript. I can work effectively in a team with other programmers and project managers to create the highest quality applications. I am able to make quick decisions and manage time to successfully complete projects on time
               </p>
             </div>
           </div></div>
@@ -206,7 +241,7 @@
         </section>
 
         <!-- div .benefits -->
-        <section class="benefits">
+        <section id="technologies" class="technologies">
 					<div class="animated_block">
 						  <div class="content">
             <h2 class="section-title" data-splitting>
@@ -260,7 +295,7 @@
         </section>
 
         <!-- div .work -->
-        <section class="work">
+        <section id="portfolio" class="work">
 					<div class="animated_block">
 						 <div class="content">
             <h2 class="section-title" data-splitting>
@@ -268,15 +303,16 @@
               <span class="section-title__square"></span>
             </h2>
           </div>
+          <!-- 1 -->
 
           <div class="work__wrapp">
             <div class="work__item" data-speed="-300">
-              <p class="work-number">/001</p>
+              <!-- <p class="work-number">/001</p> -->
 
               <div class="img-inner">  
                 <img
                 class="work__item-img"
-                  src="/img/pizza.png"
+                  src="img/pizza-app.png"
                   alt="3"
                 />
               </div>
@@ -287,33 +323,206 @@
                 <div class="work__item-information">
                    <h2 class="work__item-title">
                 <span class="stroke">E-Commerce</span> 
+                <p class="work__item-subtitle">E-Commerce Pizza store the project written on the latest  technologies and currently the most complex project I have written. You can add or remove a selected item. You can increase or decrease the counter of one item. There are categories and sorting by price, by popularity, etc. There is page routing full-fledged shopping cart and home page</p>
               
               </h2>
+              <div>
+                <div class="work__item-stack">
+                  <p class="work__stack-title">Stack:</p>
+                  <img src="img/vite.png" alt="vite"> 
+                  <img src="img/typescript.png" alt="typescript">
+                  <img src="img/react.png" alt="react">
+                  <img src="img/sass.png" alt="sass">
+                  <img src="img/redux.png" alt="redux">
+                  <img src="img/tailwind.png" alt="tailwind">
+            </div>
+
+              </div>
+             
+              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+             
+              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+                </div>
+
+            
+             
+
+            </div>
+
+
+
+            <!-- 2 -->
+            <div class="work__item" data-speed="-300">
+              <!-- <p class="work-number">/001</p> -->
+
+              <div class="img-inner">  
+                <img
+                class="work__item-img"
+                  src="img/weather-app.png"
+                  alt="3"
+                />
+              </div>
+           
+            
+              
+
+                <div class="work__item-information">
+                   <h2 class="work__item-title">
+                <span class="stroke">Weather-app</span> 
+                <p class="work__item-subtitle">A weather application written in Next js. I get the weather information from the API. It has the current weather and the forecast for the week. Also information about humidity, wind speed, wind direction, wind speed and other details</p>
+              
+              </h2>
+              <div class="work__item-stack">
+                    <p class="work__stack-title">Stack:</p>
+                    <img src="img/next.png" alt="vite"> 
+                    <img src="img/typescript.png" alt="typescript">
+                    <img src="img/react.png" alt="react">
+              
+              </div>
+              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+             
+              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              
                 </div>
             
              
 
             </div>
+
+
+            <!-- 3 --> 
             <div class="work__item" data-speed="-300">
-              <span class="work__item-num" data-speed="-500">/001</span>
-            
-                    <div class="img-inner">
-                        <img
+              <!-- <p class="work-number">/001</p> -->
+
+              <div class="img-inner">  
+                <img
                 class="work__item-img"
-                  src="/img/Renissance.png"
+                  src="img/plato.png"
                   alt="3"
                 />
-                    </div>
+              </div>
+           
+            
               
-                
+
+                <div class="work__item-information">
+                   <h2 class="work__item-title">
+                <span class="stroke">Landing Page</span> 
+                <p class="work__item-subtitle">Pills website written on HTML SCSS and Java Script.I have written a great deal of landing pages however the design of this site just fascinated me. It was a pleasure to write this website and for one to pump up my skills in layout</p>
+              
+              </h2>
+              <div class="work__item-stack">
+                    <p class="work__stack-title">Stack:</p>
+                    <img src="img/html.png" alt="vite"> 
+                    <img src="img/sass.png" alt="typescript">
+                    <img src="img/javascript.png" alt="react">
+              
+              </div>
+              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
              
-              <h2 class="work__item-title">E-Commerce Pizza </h2>
+              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              
+                </div>
+            
+             
+
             </div>
+
+            <!-- 4 --> 
+            <div class="work__item" data-speed="-300">
+              <!-- <p class="work-number">/001</p> -->
+
+              <div class="img-inner">  
+                <img
+                class="work__item-img"
+                  src="img/modern-view.png"
+                  alt="3"
+                />
+              </div>
+           
+            
+              
+
+                <div class="work__item-information">
+                   <h2 class="work__item-title">
+                <span class="stroke">Building company</span> 
+                <p class="work__item-subtitle">Project written on React library.At first glance, it may seem like a simple site, but there is actually a precise calculation of apartments in quadrants and a slider on the main page. By the way, I designed it myself.</p>
+              
+              </h2>
+              <div class="work__item-stack">
+                    <p class="work__stack-title">Stack:</p>
+                    <img src="img/react.png" alt="react"> 
+                    <img src="img/sass.png" alt="sass">
+                    <img src="img/html.png" alt="html">
+                    <img src="img/material.png" alt="html">
+              
+              </div>
+              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+             
+              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              
+                </div>
+            
+             
+
+            </div>
+
+
+            <!-- 5 --> 
+            <div class="work__item" data-speed="-300">
+              <!-- <p class="work-number">/001</p> -->
+
+              <div class="img-inner">  
+                <img
+                class="work__item-img"
+                  src="img/spotify.png"
+                  alt="3"
+                />
+              </div>
+           
+            
+              
+
+                <div class="work__item-information">
+                   <h2 class="work__item-title">
+                <span class="stroke">Spotify Clone</span> 
+                <p class="work__item-subtitle">Spotify is written in React. I have wanted to create a Spotify clone for a long time and I finally did it. This app has almost all of Spotify's functionality, including My Favorite Tracks, Library, Genres, Search, Create Playlist, and Recommended Playlist. The code is written in React using React Router, Hooks, axios, tailwind, and CSS modules. However, there is one problem that I haven't been able to fix. After deploying the project, I noticed that other users cannot open the website due to some problem with the URL. If someone wants to visit the site, I need to add their client ID from Spotify to register them in my app. However, you can still check out the code.</p>
+              
+              </h2>
+              <div class="work__item-stack">
+                    <p class="work__stack-title">Stack:</p>
+                    <img src="img/react.png" alt="vite"> 
+                    <img src="img/sass.png" alt="typescript">
+                    <img src="img/vite.png" alt="vite">
+             
+              
+              </div>
+              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+             
+              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              
+                </div>
+            
+             
+
+            </div>
+          
+        
+           
+            
+            </div>
+
+            
+
+
+        
+          
            
           
           </div>
+
 					</div>
-         
+  
         </section>
 
         <!-- border-bottom: 1px solid #2f2e2e; -->
@@ -367,34 +576,77 @@
                   />
                 </span>
                 
-              </div>
+              </div> 
+                   
+       <button class="contact__btn" type="submit">SEND</button>
+      </form> 
+      </div> 
+      </section>
+
+
+              <!-- social -->
+              <section class="socials"> 
+
+                   <div class="content">
+
+                    <div class="animated_block">
+
+                  <h2 class="section-title" data-splitting>
+                    Soci<span class="stroke">als</span>
+                    <span class="section-title__square"></span>
+                  </h2>
+
+                  <h2 class="socials__title">Get in Touch</h2>
+                  <h2 class="socials__email">baxtiyornarziev6@gmail.com</h2>
+
+                  <div class="social__items">
+
+                    <ul class="socials__links">
+                      <li class="menu__item">
+                        <a href="https://t.me/Oxxxtentacion" class="menu__link">Telegram</a>
+
+                        <img src="img/social1.jpg" alt="menu1" class="menu__img">
+
+                      </li> 
+
+                      <li class="menu__item">
+                        <a href="https://instagram.com/baxaxaxaxaxaxaxa?igshid=MTk0NTkyODZkYg==" class="menu__link">Instagram</a>
+                        <img src="img/social2.jpg" alt="menu3" class="menu__img">
+                      </li>
+                      <li class="menu__item">
+                        <a href="https://github.com/Baxa-1998" class="menu__link">Github</a>
+                        <img src="img/social3.jpg" alt="menu4" class="menu__img">
+
+                      </li>
+                                    
+                   
+                    </ul>
+               
+                    
+
+                  </div>
+             
+                  </div> 
+           
+                </section>
+
+              
+              
 
 
             
-       
-       <button class="contact__btn" type="submit">SEND</button>
-            </form> 
+  
+
+
+
 
      
          
       </main>
 
+
       <!-- div .footer -->
-      <footer class="footer">
-        <div class="footer__div">
-          <span data-speed="-300">a</span>
-          <span data-speed="100">p</span>
-          <span data-speed="300">p</span>
-          <span data-speed="-300">r</span>
-          <span data-speed="350">o</span>
-          <span data-speed="200">v</span>
-          <span data-speed="-310">e</span>
-          <span data-speed="200">c</span>
-          <span data-speed="-340">o</span>
-          <span data-speed="-100">d</span>
-          <span data-speed="300">e</span>
-        </div>
-      </footer>
+  
     </div>
 		<div class="cursor"></div>
 		<div class="cursor2"></div>
@@ -406,6 +658,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
     <script src="hover-effect.umd.js"></script>
     <script>
+      // Define the query
+     
       let myAnimation = new hoverEffect({
           parent: document.querySelector('.disp'),
           intensity: 0.3,
@@ -415,6 +669,7 @@
           imagesRatio: 1280/576
          
       });
+
   </script>
 	
 	
