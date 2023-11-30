@@ -99,17 +99,17 @@ window.addEventListener('scroll', function(){
 
 // link close menu
 
-// let menuLinks = document.querySelectorAll('.menu__link') 
-// menuLinks.forEach(elem => { 
+let menuLinks = document.querySelectorAll('.menu__link') 
+menuLinks.forEach(elem => { 
 
-//   elem.addEventListener('click', function (){ 
-//     setTimeout(()=>{
-//     popup.classList.remove('active')
-//     },500)
+  elem.addEventListener('click', function (){ 
+    setTimeout(()=>{
+    popup.classList.remove('active')
+    },500)
     
-//   })
+  })
   
-// });
+});
 
 
 

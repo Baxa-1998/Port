@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /> 
+
 
     <script src="script.js" defer></script>
     <script
@@ -12,7 +13,7 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
   </head>
@@ -108,7 +109,7 @@
 					<span class="stroke">d</span> 	
 					<span class="stroke">e</span> 	
 					<span class="stroke">r</span> 	<br>
-          <a href="#"> <button class="header__btn">RESUME</button> </a>
+          <a href="#"> <button onclick="window.open('./doc/prog-resume.pdf')" class="header__btn">RESUME</button> </a>
 						
 					
         </h1>
@@ -125,7 +126,7 @@
               >HTML
               <span class="header__marq-star">
                 <img
-                  src="/img/star.svg"
+                  src="img/star.svg"
                   alt="star"
                 />
               </span>
@@ -134,7 +135,7 @@
               >CSS
               <span class="header__marq-star">
                 <img
-                  src="/img/star.svg"
+                  src="img/star.svg"
                   alt="star"
                 />
               </span>
@@ -143,7 +144,7 @@
               >JavaScript
               <span class="header__marq-star">
                 <img
-                  src="/img/star.svg"
+                  src="img/star.svg"
                   alt="star"
                 />
               </span>
@@ -152,7 +153,7 @@
               >React
               <span class="header__marq-star">
                 <img
-                  src="/img/star.svg"
+                  src="img/star.svg"
                   alt="star"
                 />
               </span>
@@ -161,7 +162,7 @@
               >Redux
               <span class="header__marq-star">
                 <img
-                  src="/img/star.svg"
+                  src="img/star.svg"
                   alt="star"
                 />
               </span>
@@ -170,7 +171,7 @@
               >Tailwind
               <span class="header__marq-star">
                 <img
-                  src="/img/star.svg"
+                  src="img/star.svg"
                   alt="star"
                 />
               </span>
@@ -179,7 +180,7 @@
               >TypeScript
               <span class="header__marq-star">
                 <img
-                  src="/img/star.svg"
+                  src="img/star.svg"
                   alt="star"
                 />
               </span>
@@ -188,7 +189,7 @@
               >Material UI
               <span class="header__marq-star">
                 <img
-                src="/img/star.svg"
+                src="img/star.svg"
                 alt="star"
               />
               </span>
@@ -197,7 +198,7 @@
             >GIT
             <span class="header__marq-star">
               <img
-              src="/img/star.svg"
+              src="img/star.svg"
               alt="star"
             />
             </span>
@@ -232,7 +233,7 @@
                 abo<span class="stroke">ut</span>
                 <span class="section-title__square"></span>
               </h2>
-              <p class="about__p">
+              <p data-aos="fade-zoom-in"  class="about__p" data-aos-duration="3000">
                 I am Baxtiyor from Uzbekistan frontend developer with 2 years of experience. I am able to create a variety of websites, web applications, admin dashboards, and e-commerce stores from scratch. I have experience working with HTML, CSS, JavaScript, React, Redux, TypeScript. I can work effectively in a team with other programmers and project managers to create the highest quality applications. I am able to make quick decisions and manage time to successfully complete projects on time
               </p>
             </div>
@@ -251,40 +252,40 @@
 
             <ul class="benefits__list">
               <li class="benefits__item">
-                <span class="benefits__num" data-speed="-200">/HTML</span>
-                <p class="benefits__p">
+                <span class="benefits__num" data-speed="-200" >/HTML</span>
+                <p data-aos="fade-up" class="benefits__p" data-aos-duration="1500">
                   Knowledge: html tags, html semantic elements, html table elements, html form elements, multimedia tags, html global attributes on elements
                 
                 </p>
               </li>
               <li class="benefits__item">
                 <span class="benefits__num" data-speed="-150">/CSS</span>
-                <p class="benefits__p">
+                <p data-aos="fade-up" class="benefits__p" data-aos-duration="1500">
                   Knowledge: Flexbox, Position, Cascading and Inheritance, Grid, Pseudo Elements, Pseudo Classes, 
                   Media Queries, Animations (keyframes), Preprocessor SASS  
                 </p>
               </li>
               <li class="benefits__item">
                 <span class="benefits__num" data-speed="-150">/JS</span>
-                <p class="benefits__p">
+                <p data-aos="fade-up" class="benefits__p" data-aos-duration="1500">
                   Knowledge: Variables, Operators, Functions, Arrays, Hoisting, Spread operator, Promises, DOM-manipulations with JS
                 </p>
               </li>
               <li class="benefits__item">
                 <span class="benefits__num" data-speed="-150">/React</span>
-                <p class="benefits__p">
+                <p data-aos="fade-up" class="benefits__p">
                 Knowledge: Components, Props, Hooks, React-Router, CSS module, Tailwind, React-redux, 
                 </p>
               </li>
               <li class="benefits__item">
                 <span class="benefits__num" data-speed="-110">/TS</span>
-                <p class="benefits__p">
+                <p data-aos="fade-up" class="benefits__p" data-aos-duration="1500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
                 </p>
               </li>
               <li class="benefits__item">
                 <span class="benefits__num" data-speed="-200">/Next</span>
-                <p class="benefits__p">
+                <p data-aos="fade-up" class="benefits__p" data-aos-duration="1500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quas.
                 </p>
               </li>
@@ -310,11 +311,14 @@
               <!-- <p class="work-number">/001</p> -->
 
               <div class="img-inner">  
-                <img
+                <a href="https://pizza-psi-six.vercel.app/">
+                  <img
                 class="work__item-img"
                   src="img/pizza-app.png"
                   alt="3"
                 />
+                </a>
+                
               </div>
            
             
@@ -322,26 +326,26 @@
 
                 <div class="work__item-information">
                    <h2 class="work__item-title">
-                <span class="stroke">E-Commerce</span> 
-                <p class="work__item-subtitle">E-Commerce Pizza store the project written on the latest  technologies and currently the most complex project I have written. You can add or remove a selected item. You can increase or decrease the counter of one item. There are categories and sorting by price, by popularity, etc. There is page routing full-fledged shopping cart and home page</p>
+                <span class="stroke" data-aos="fade-up"  data-aos-duration="1500">E-Commerce</span> 
+                <p class="work__item-subtitle" data-aos="fade-up"  data-aos-duration="1500">E-Commerce Pizza store the project written on the latest  technologies and currently the most complex project I have written. You can add or remove a selected item. You can increase or decrease the counter of one item. There are categories and sorting by price, by popularity, etc. There is page routing full-fledged shopping cart and home page</p>
               
               </h2>
               <div>
                 <div class="work__item-stack">
                   <p class="work__stack-title">Stack:</p>
-                  <img src="img/vite.png" alt="vite"> 
-                  <img src="img/typescript.png" alt="typescript">
-                  <img src="img/react.png" alt="react">
-                  <img src="img/sass.png" alt="sass">
-                  <img src="img/redux.png" alt="redux">
-                  <img src="img/tailwind.png" alt="tailwind">
+                  <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="100" src="img/vite.png" alt="vite"> 
+                  <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="200" src="img/typescript.png" alt="typescript">
+                  <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="300" src="img/react.png" alt="react">
+                  <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="400" src="img/sass.png" alt="sass">
+                  <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="500" src="img/redux.png" alt="redux">
+                  <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="600" src="img/tailwind.png" alt="tailwind">
             </div>
 
               </div>
              
-              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+              <a href="https://pizza-psi-six.vercel.app/"> <button class="work__item-btn">VISITE</button> </a>
              
-              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              <a href="https://github.com/Baxa-1998/Pizza"> <button class="work__item-btn">CODE</button> </a>
                 </div>
 
             
@@ -356,11 +360,14 @@
               <!-- <p class="work-number">/001</p> -->
 
               <div class="img-inner">  
-                <img
+                <a href="https://weather-app-sage-delta.vercel.app/">
+                   <img
                 class="work__item-img"
                   src="img/weather-app.png"
                   alt="3"
                 />
+                </a>
+               
               </div>
            
             
@@ -368,20 +375,20 @@
 
                 <div class="work__item-information">
                    <h2 class="work__item-title">
-                <span class="stroke">Weather-app</span> 
-                <p class="work__item-subtitle">A weather application written in Next js. I get the weather information from the API. It has the current weather and the forecast for the week. Also information about humidity, wind speed, wind direction, wind speed and other details</p>
+                <span class="stroke" data-aos="fade-up"  data-aos-duration="1500">Weather-app</span> 
+                <p class="work__item-subtitle" data-aos="fade-up"  data-aos-duration="1500">A weather application written in Next js. I get the weather information from the API. It has the current weather and the forecast for the week. Also information about humidity, wind speed, wind direction, wind speed and other details</p>
               
               </h2>
               <div class="work__item-stack">
                     <p class="work__stack-title">Stack:</p>
-                    <img src="img/next.png" alt="vite"> 
-                    <img src="img/typescript.png" alt="typescript">
-                    <img src="img/react.png" alt="react">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="100" src="img/next.png" alt="vite"> 
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="200" src="img/typescript.png" alt="typescript">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="300" src="img/react.png" alt="react">
               
               </div>
-              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+              <a href="https://weather-app-sage-delta.vercel.app/"> <button class="work__item-btn">VISITE</button> </a>
              
-              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              <a href="https://github.com/Baxa-1998/weather-app-"> <button class="work__item-btn">CODE</button> </a>
               
                 </div>
             
@@ -395,11 +402,12 @@
               <!-- <p class="work-number">/001</p> -->
 
               <div class="img-inner">  
-                <img
+                <a href="https://baxa-1998.github.io/Plato/"> <img
                 class="work__item-img"
                   src="img/plato.png"
                   alt="3"
-                />
+                /></a>
+               
               </div>
            
             
@@ -407,20 +415,20 @@
 
                 <div class="work__item-information">
                    <h2 class="work__item-title">
-                <span class="stroke">Landing Page</span> 
-                <p class="work__item-subtitle">Pills website written on HTML SCSS and Java Script.I have written a great deal of landing pages however the design of this site just fascinated me. It was a pleasure to write this website and for one to pump up my skills in layout</p>
+                <span class="stroke" data-aos="fade-up"  data-aos-duration="1500">Landing Page</span> 
+                <p class="work__item-subtitle" data-aos="fade-up"  data-aos-duration="1500">Pills website written on HTML SCSS and Java Script.I have written a great deal of landing pages however the design of this site just fascinated me. It was a pleasure to write this website and for one to pump up my skills in layout</p>
               
               </h2>
               <div class="work__item-stack">
                     <p class="work__stack-title">Stack:</p>
-                    <img src="img/html.png" alt="vite"> 
-                    <img src="img/sass.png" alt="typescript">
-                    <img src="img/javascript.png" alt="react">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="100" src="img/html.png" alt="vite"> 
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="200" src="img/sass.png" alt="typescript">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="300" src="img/javascript.png" alt="react">
               
               </div>
-              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+              <a href="https://baxa-1998.github.io/Plato/"> <button class="work__item-btn">VISITE</button> </a>
              
-              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              <a href="https://github.com/Baxa-1998/Plato"> <button class="work__item-btn">CODE</button> </a>
               
                 </div>
             
@@ -433,11 +441,12 @@
               <!-- <p class="work-number">/001</p> -->
 
               <div class="img-inner">  
-                <img
+                <a href="https://modent-view-lf6u.vercel.app/">   <img
                 class="work__item-img"
                   src="img/modern-view.png"
                   alt="3"
-                />
+                /></a>
+             
               </div>
            
             
@@ -445,21 +454,21 @@
 
                 <div class="work__item-information">
                    <h2 class="work__item-title">
-                <span class="stroke">Building company</span> 
-                <p class="work__item-subtitle">Project written on React library.At first glance, it may seem like a simple site, but there is actually a precise calculation of apartments in quadrants and a slider on the main page. By the way, I designed it myself.</p>
+                <span class="stroke" data-aos="fade-up"  data-aos-duration="1500">Building company</span> 
+                <p class="work__item-subtitle" data-aos="fade-up"  data-aos-duration="1500">Project written on React library.At first glance, it may seem like a simple site, but there is actually a precise calculation of apartments in quadrants and a slider on the main page. By the way, I designed it myself.</p>
               
               </h2>
               <div class="work__item-stack">
                     <p class="work__stack-title">Stack:</p>
-                    <img src="img/react.png" alt="react"> 
-                    <img src="img/sass.png" alt="sass">
-                    <img src="img/html.png" alt="html">
-                    <img src="img/material.png" alt="html">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="100" src="img/react.png" alt="react"> 
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="200" src="img/sass.png" alt="sass">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="300" src="img/html.png" alt="html">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="400" src="img/material.png" alt="html">
               
               </div>
-              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+              <a href="https://modent-view-lf6u.vercel.app/"> <button class="work__item-btn">VISITE</button> </a>
              
-              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              <a href="https://github.com/Baxa-1998/modent-view"> <button class="work__item-btn">CODE</button> </a>
               
                 </div>
             
@@ -473,11 +482,12 @@
               <!-- <p class="work-number">/001</p> -->
 
               <div class="img-inner">  
-                <img
+                <a href="https://spotify-clone-react-kappa.vercel.app/">  <img
                 class="work__item-img"
                   src="img/spotify.png"
                   alt="3"
-                />
+                /></a>
+              
               </div>
            
             
@@ -485,21 +495,22 @@
 
                 <div class="work__item-information">
                    <h2 class="work__item-title">
-                <span class="stroke">Spotify Clone</span> 
-                <p class="work__item-subtitle">Spotify is written in React. I have wanted to create a Spotify clone for a long time and I finally did it. This app has almost all of Spotify's functionality, including My Favorite Tracks, Library, Genres, Search, Create Playlist, and Recommended Playlist. The code is written in React using React Router, Hooks, axios, tailwind, and CSS modules. However, there is one problem that I haven't been able to fix. After deploying the project, I noticed that other users cannot open the website due to some problem with the URL. If someone wants to visit the site, I need to add their client ID from Spotify to register them in my app. However, you can still check out the code.</p>
+                <span class="stroke" data-aos="fade-up"  data-aos-duration="1500">Spotify Clone</span> 
+                <p class="work__item-subtitle" data-aos="fade-up"  data-aos-duration="1500">Spotify is written in React. I have wanted to create a Spotify clone for a long time and I finally did it. This app has almost all of Spotify's functionality, including My Favorite Tracks, Library, Genres, Search, Create Playlist, and Recommended Playlist. The code is written in React using React Router, Hooks, axios, tailwind, and CSS modules. However, there is one problem that I haven't been able to fix. After deploying the project, I noticed that other users cannot open the website due to some problem with the URL. If someone wants to visit the site, I need to add their client ID from Spotify to register them in my app. However, you can still check out the code.</p>
               
               </h2>
               <div class="work__item-stack">
                     <p class="work__stack-title">Stack:</p>
-                    <img src="img/react.png" alt="vite"> 
-                    <img src="img/sass.png" alt="typescript">
-                    <img src="img/vite.png" alt="vite">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="100" src="img/react.png" alt="vite"> 
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="200" src="img/sass.png" alt="typescript">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="300" src="img/vite.png" alt="vite">
+                    <img data-aos="zoom-in"  data-aos-duration="500" data-aos-delay="400" src="img/tailwind.png" alt="tailwind">
              
               
               </div>
-              <a href="#"> <button class="work__item-btn">VISITE</button> </a>
+              <a href="https://spotify-clone-react-kappa.vercel.app/"> <button class="work__item-btn">VISITE</button> </a>
              
-              <a href="#"> <button class="work__item-btn">CODE</button> </a>
+              <a href="https://github.com/Baxa-1998/spotify-clone"> <button class="work__item-btn">CODE</button> </a>
               
                 </div>
             
@@ -596,25 +607,25 @@
                     <span class="section-title__square"></span>
                   </h2>
 
-                  <h2 class="socials__title">Get in Touch</h2>
-                  <h2 class="socials__email">baxtiyornarziev6@gmail.com</h2>
+                  <h2 class="socials__title" data-aos="fade-up"  data-aos-duration="1500">Get in Touch</h2>
+                  <h2 class="socials__email" data-aos="fade-up"  data-aos-duration="1500">baxtiyornarziev6@gmail.com</h2>
 
                   <div class="social__items">
 
                     <ul class="socials__links">
                       <li class="menu__item">
-                        <a href="https://t.me/Oxxxtentacion" class="menu__link">Telegram</a>
+                        <a href="https://t.me/Oxxxtentacion" class="menu__link" data-aos="fade-up"  data-aos-duration="1500">Telegram</a>
 
                         <img src="img/social1.jpg" alt="menu1" class="menu__img">
 
                       </li> 
 
                       <li class="menu__item">
-                        <a href="https://instagram.com/baxaxaxaxaxaxaxa?igshid=MTk0NTkyODZkYg==" class="menu__link">Instagram</a>
+                        <a href="https://instagram.com/baxaxaxaxaxaxaxa?igshid=MTk0NTkyODZkYg==" class="menu__link" data-aos="fade-up"  data-aos-duration="1500">Instagram</a>
                         <img src="img/social2.jpg" alt="menu3" class="menu__img">
                       </li>
                       <li class="menu__item">
-                        <a href="https://github.com/Baxa-1998" class="menu__link">Github</a>
+                        <a href="https://github.com/Baxa-1998" class="menu__link" data-aos="fade-up"  data-aos-duration="1500">Github</a>
                         <img src="img/social3.jpg" alt="menu4" class="menu__img">
 
                       </li>
@@ -656,7 +667,8 @@
 		<script src="splitting.min.js"></script>
 		<script src="popup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
-    <script src="hover-effect.umd.js"></script>
+    <script src="hover-effect.umd.js"></script> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       // Define the query
      
@@ -670,6 +682,9 @@
          
       });
 
+  </script>
+  <script>
+    AOS.init();
   </script>
 	
 	

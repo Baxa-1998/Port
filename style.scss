@@ -780,6 +780,11 @@ section {
     transition: all .6s ease;
   
     border-radius: 12px;
+    filter: grayscale(100%); 
+    transition: .5s ease-in-out;
+    &:hover{
+      filter: grayscale(0%);
+    }
    
   
   
@@ -1200,6 +1205,8 @@ section {
     .work__item-img{ 
       object-fit: fill;
       height: 460px;
+    
+    
     }
 
   }
