@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function () {
         end: '40% 50%',
         toggleActions: 'play none none none',
 
-        markers: true,
+       
         scrub: 1,
       },
     });
