@@ -1455,6 +1455,12 @@ section {
 }
 
 @media (max-width: 540px){
+  .cursor  {
+    display: none;
+  }
+  .cursor2{
+    display: none;
+  }
   .popup .menu__wrap .menu .menu__item .menu__link{
     font-size: 30px;
   }
