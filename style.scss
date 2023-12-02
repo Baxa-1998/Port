@@ -1425,7 +1425,8 @@ section {
     font-size: 40px;
   }
   .about__txt{
-    width: calc(80% - 35px);
+    width: calc(100% - 35px);
+    padding-left: 15px;
   }
   .content{
     padding: 0px 10px;
